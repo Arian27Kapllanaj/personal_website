@@ -2,7 +2,7 @@ import "./experimentals.scss"
 
 export default function Experimentals() {
     return (
-        <div className="experimentals">
+        <div className="experimentals" id="experimentals">
             
         </div>
     )
