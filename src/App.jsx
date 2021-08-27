@@ -20,7 +20,6 @@ function App() {
         <Intro/>
         <Portfolio/>
         <Works/>
-        <Experimentals/>
         <Contact/>
       </div>
     </div>
