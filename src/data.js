@@ -42,3 +42,18 @@ export const mobilePortfolio = [
         link: "https://github.com/Arian27Kapllanaj/Calculator-AndroidStudio"
     },
 ];
+
+export const smallPortfolio = [
+    {
+        id: 4,
+        title: "Hangman Game",
+        img: "assets/hangman.png",
+        link: "https://github.com/Arian27Kapllanaj/Hangman-Javascript"
+    },
+    {
+        id: 5,
+        title: "Website Banking",
+        img: "assets/bank.png",
+        link: "https://github.com/Arian27Kapllanaj/WebsiteBanking-project"
+    }
+];
