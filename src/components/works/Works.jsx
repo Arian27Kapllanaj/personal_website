@@ -6,24 +6,27 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "assets/twitter.png",
+      icon: "assets/twitterLogo.png",
       title: "Twitter Clone",
-      desc: "Twitter Clone using Laravel 6 and Boostrap 4",
+      desc: "Twitter Clone has the same functionality as real Twitter. It does not have all the functionality but the basics. The user interface it is the same as the real twitter.",
       img: "assets/twitter.png",
+      tech: "PHP, HTML5, CSS, JavaScript, Laravel 6, Bootstrap 4/5"
     },
     {
       id: "2",
-      icon: "assets/twitter.png",
-      title: "Twitter Clone2",
-      desc: "Twitter Clone using Laravel 6 and Boostrap 4",
-      img: "assets/twitter.png",
+      icon: "assets/vaccinationAppointmentsLogo.png",
+      title: "Vaccination Appointments",
+      desc: "Web Application where you can make an appointemnt to do the vaccination and after taking all the shots you will get the certification.",
+      img: "assets/vaccinationAppointments.png",
+      tech: "PHP, HTML5, CSS, Laravel 8, Bootstrap 5"
     },
     {
       id: "3",
-      icon: "assets/twitter.png",
-      title: "Twitter Clone3",
-      desc: "Twitter Clone using Laravel 6 and Boostrap 4",
-      img: "assets/twitter.png",
+      icon: "assets/calculatorLogo.png",
+      title: "Calculator App",
+      desc: "Simple Calculator App built with Android Studio",
+      img: "assets/calculator.jpg",
+      tech: "Android Studio, Java"
     },
   ];
 
@@ -44,7 +47,7 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  <span>Technologies: {d.tech}</span>
                 </div>
               </div>
               <div className="right">

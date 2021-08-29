@@ -1,27 +1,26 @@
-import { useState } from "react";
-import "./contact.scss"
+import "./contact.scss";
+import { Mail } from "@material-ui/icons";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 export default function Contact() {
-
-    const [message, setMessage] = useState(false);
-    const handleSubmit = (e)=>{
-        e.preventDefault();
-        setMessage(true)
-    }
-    return (
-        <div className="contact" id="contact">
-            <div className="left">
-                <img src="assets/shake.svg" alt="" />
-            </div>
-            <div className="right">
-                <h2>Contact.</h2>
-                <form onSubmit={handleSubmit}>
-                    <input type="text" placeholder="Email"/>
-                    <textarea placeholder="Message"></textarea>
-                    <button type="submit">Send</button>
-                    {message && <span>Thanks, I will reply ASAP :)</span>}
-                </form>
-            </div>
+  return (
+    <div className="contact" id="contact">
+      <div className="left">
+        <img src="assets/shake.svg" alt="" />
+      </div>
+      <div className="right">
+        <h2>Contact</h2>
+        <br></br>
+        <div>
+          <Mail className="icon" />
+          <span>ariankapllanaj@outlook.com</span>
         </div>
-    )
+        <div>
+          <br></br>
+          <a href="https://www.linkedin.com/in/arian-kapllanaj-b0a283192/" target="_blank" rel="noreferrer"><LinkedInIcon className="icon"/></a>
+          <span>Arian Kapllanaj</span>
+        </div>
+      </div>
+    </div>
+  );
 }

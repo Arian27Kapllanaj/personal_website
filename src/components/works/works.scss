@@ -1,11 +1,12 @@
 @import "../../global.scss";
 
 .works {
-  background-color: crimson;
+  background-color: $secondColor;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 
   .arrow {
     height: 70px;
@@ -104,7 +105,7 @@
               width: 40px;
               height: 40px;
               border-radius: 50%;
-              background-color: rgb(233, 141, 108);
+              background-color: black;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -151,10 +152,16 @@
               }
             }
             span {
-              font-size: 12px;
+              font-size: 14px;
               font-weight: 600;
-              text-decoration: underline;
-              cursor: pointer;
+
+              @include mobile {
+                display: none;
+              }
+
+              @media (max-width: 1015px) {
+                display: none;
+              }
             }
           }
         }
@@ -167,7 +174,7 @@
           overflow: hidden;
 
           img {
-            width: 400px;
+            width: 100%;
             transform: rotate(-10deg);
           }
         }

@@ -11,12 +11,13 @@ export default function Intro() {
             showCursor: false,
             strings: ["How are you?", 
             "Hope you are doing well", 
-            "You can click the arrow below to check my portfolio", 
+            "You can click the arrow below to check my projects", 
             "You can view my resume", 
-            "You can see my Linkedin", 
+            "You can view my LinkedIn", 
+            "You can view my Github account", 
             "You can contact me via email", 
-            "You can view my projects",
-            "You can view my small project which I called experiments"],
+            "You can contact me via LinkedIn",
+            "You can view my small project which I called experimentals"],
         });
     }, []);
   return (
