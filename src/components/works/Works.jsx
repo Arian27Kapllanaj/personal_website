@@ -22,11 +22,11 @@ export default function Works() {
     },
     {
       id: "3",
-      icon: "assets/calculatorLogo.png",
-      title: "Calculator App",
-      desc: "Simple Calculator App built with Android Studio",
-      img: "assets/calculator.jpg",
-      tech: "Android Studio, Java"
+      icon: "assets/millionaire-quiz.png",
+      title: "MillionaireQuiz-React",
+      desc: "Reactjs website where you can play the well-known game named 'Who Wants to be a millinaire'.",
+      img: "assets/millionaire-quiz.png",
+      tech: "React, React Hooks, SCSS"
     },
   ];
 

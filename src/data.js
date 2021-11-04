@@ -48,12 +48,24 @@ export const smallPortfolio = [
         id: 4,
         title: "Hangman Game",
         img: "assets/hangman.png",
-        link: "https://github.com/Arian27Kapllanaj/Hangman-Javascript"
+        link: "https://arian-hangman-javascript.netlify.app/"
     },
     {
         id: 5,
         title: "Website Banking",
         img: "assets/bank.png",
         link: "https://github.com/Arian27Kapllanaj/WebsiteBanking-project"
+    },
+    {
+        id: 6,
+        title: "MillionaireQuiz",
+        img: "assets/millionaire-quiz.png",
+        link: "https://github.com/Arian27Kapllanaj/MillionaireQuiz-React"
+    },
+    {
+        id: 7,
+        title: "Horseradish-Website",
+        img: "assets/horseradish.png",
+        link: "https://github.com/Arian27Kapllanaj/horseradish-website"
     }
 ];
